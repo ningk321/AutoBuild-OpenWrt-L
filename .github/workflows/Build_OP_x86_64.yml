@@ -93,5 +93,5 @@ jobs:
     - name : Upload artifact
       uses: actions/upload-artifact@master
       with:
-        name: OpenWrt_mango
+        name: OpenWrt
         path: openwrt/bin
